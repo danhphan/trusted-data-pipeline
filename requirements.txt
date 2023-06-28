@@ -1,9 +1,6 @@
-pandas
-dbt-core==1.4.1
-dbt-duckdb==1.4.1
+dbt-duckdb==1.5.1
 dagster==1.2.1
 dagit==1.2.1
 dagster-dbt
-
-
+pandas
 
