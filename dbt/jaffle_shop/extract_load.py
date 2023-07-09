@@ -1,6 +1,6 @@
 import duckdb as db
 
-conn = db.connect('jaffle_shop.duckdb')
+conn = db.connect('jaffle_shop_db.duckdb')
 
 
 conn.execute('CREATE SCHEMA IF NOT EXISTS jaffle_raw')
