@@ -21,4 +21,6 @@ dbt test
 
 dbt docs generate
 dbt docs serve --port 8081
+
+dbt show --inline "select count(*) from {{ ref('stg_customers') }}"
 ```
