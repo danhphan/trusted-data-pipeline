@@ -17,4 +17,8 @@ cd ./dbt/jaffle_shop/
 dbt deps
 dbt build
 dbt run
+dbt test
+
+dbt docs generate
+dbt docs serve --port 8081
 ```
