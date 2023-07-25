@@ -10,4 +10,11 @@ pip install -r requirements.txt
 
 ```
 
-##
+### DBT setup
+
+```
+cd ./dbt/jaffle_shop/
+dbt deps
+dbt build
+dbt run
+```
