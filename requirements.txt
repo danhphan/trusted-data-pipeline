@@ -1,6 +1,6 @@
 dbt-duckdb==1.5.1
-dagster==1.2.1
-dagit==1.2.1
+dagster==1.4.1
+dagit==1.4.1
+dagster-webserver==1.4.1
 dagster-dbt
 pandas
-
