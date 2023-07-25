@@ -1,4 +1,4 @@
-# trusted-data-warehouse
+# trusted-data-pipeline
 
 
 ### Setup environment
@@ -9,3 +9,5 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 ```
+
+##
