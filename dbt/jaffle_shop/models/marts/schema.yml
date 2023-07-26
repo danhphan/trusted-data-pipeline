@@ -23,5 +23,5 @@ models:
               values: ['placed', 'shipped', 'completed', 'return_pending', 'returned']
     tests:
       - dbt_expectations.expect_table_row_count_to_equal_other_table:
-          compare_model: ref("stg_customers")
+          compare_model: ref("stg_orders")
 
