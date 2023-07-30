@@ -14,7 +14,6 @@ dbt_assets = load_assets_from_dbt_project(
 raw_data_assets = load_assets_from_package_module(
     raw_data,
     group_name="raw_data",
-    # all of these assets live in the duckdb database, under the schema raw_data
     key_prefix=["raw_data"],
 )
 

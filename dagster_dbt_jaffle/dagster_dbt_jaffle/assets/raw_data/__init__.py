@@ -33,8 +33,6 @@ def extract_raw_orders():
 
 @asset()
 def raw_orders(extract_raw_orders):
-    # df = pd.read_csv(f"{DBT_PROJECT_PATH}/data/raw_orders.csv")
-    # return df
     conn = create_raw_scheme()
     conn.execute(f'CREATE TABLE IF NOT EXISTS raw_orders AS SELECT * FROM "{DBT_PROJECT_PATH}/data/raw_orders.csv"')
 
@@ -48,8 +46,5 @@ def extract_raw_payments():
 
 @asset()
 def raw_payments(extract_raw_payments):
-    # df = pd.read_csv(f"{DBT_PROJECT_PATH}/data/raw_payments.csv")
-    # return df
     conn = create_raw_scheme()
     conn.execute(f'CREATE TABLE IF NOT EXISTS raw_payments AS SELECT * FROM "{DBT_PROJECT_PATH}/data/raw_payments.csv"')
-
