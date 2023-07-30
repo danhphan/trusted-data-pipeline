@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: crm
+  - name: raw_data
     schema: jaffle_raw
     description: E-commerce data
     tables:
