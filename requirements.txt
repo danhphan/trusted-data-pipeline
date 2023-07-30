@@ -4,3 +4,4 @@ dagit==1.4.1
 dagster-webserver==1.4.1
 dagster-dbt
 pandas
+s3fs
