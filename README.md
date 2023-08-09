@@ -5,6 +5,9 @@
 <center><img src="./assets/image/3D_data_pipeline.png"/></center>
 
 
+*Dagster global assets*
+
+<center><img src="./assets/image/dagster_assets.png"/></center>
 
 ### Setup environment
 
