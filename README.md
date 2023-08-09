@@ -1,5 +1,7 @@
 # trusted-data-pipeline
 
+This project is used as a demo for my talk: [Building 3D Trusted Data Pipelines With Dagster, Dbt, and Duckdb](https://2023.pycon.org.au/program/RY9ZCY/) at PyCon AU 2023
+
 *Data pipelines and architecture*
 
 <center><img src="./assets/image/3D_data_pipeline.png"/></center>
