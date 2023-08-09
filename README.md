@@ -1,5 +1,10 @@
 # trusted-data-pipeline
 
+*Data pipelines and architecture*
+
+<center><img src="./assets/image/3D_data_pipeline.png"/></center>
+
+
 
 ### Setup environment
 
