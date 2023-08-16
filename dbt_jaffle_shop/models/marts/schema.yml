@@ -6,11 +6,18 @@ models:
       - name: customer_id
         tests:
           - unique
-          - not_null
+          - not_null          
+      - name: FIRST_NAME
+        tests:
+          - dbt_expectations.expect_column_to_exist
+          - dbt_utils.not_null_proportion:
+              at_least: 0.98
     tests:
       - dbt_expectations.expect_table_row_count_to_equal_other_table:
           compare_model: ref("stg_customers")
-
+      - dbt_expectations.expect_table_column_count_to_equal:
+                value: 7
+                
   - name: orders
     columns:
       - name: order_id
